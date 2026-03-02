@@ -51,7 +51,7 @@ kraje_2 = read.table("kraje_makro_2.csv", header=TRUE, sep=",", dec=".")
 # czyli pakietów (packages) rozwijanych przez programistów na całym świecie.
 
 # Funkcja install.packages() służy do jednorazowej instalacji wybranego pakietu, np.:
-install.packages("readxl") 	# uruchom linijkę, a potem ją zakomentuj
+# install.packages("readxl") 	# uruchom linijkę, a potem ją zakomentuj
 # Funkcja library()wczytuje wybrany pakiet, aby móc z niego korzystać, np.:
 library(readxl)
 
